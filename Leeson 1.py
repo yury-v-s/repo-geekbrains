@@ -11,7 +11,7 @@ var_hours = user_input // 3600
 var_minute = user_input % 3600 // 60
 var_second = user_input % 3600 % 60
 print(f"{'%0.2d' % var_hours}:{'%0.2d' % var_minute}:{'%0.2d' % var_second}")
-# 3
+# Задание 3
 user_input = (input("Введите целое число:"))
 n = int(user_input)
 nn = int(user_input + user_input)
